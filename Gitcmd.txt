@@ -1,0 +1,35 @@
+=>git init :initialize git repository
+	-like you create a new save in video game
+
+=>git add:save a file
+	-like saving your progress in video game
+ git add should be followed by the name of the file you wanna save
+ but you you want to save everything,tpe:"git add ."
+
+=>git commit : to commit changes to memory
+	use "-m" to type the message and describe your commit
+e.g:git commit -m "I changed something here" 
+//but write a message that make sense
+	-like you need to inform your teamate about what to do or what you did
+
+=>git stash:to make a temporary modification
+
+=>rm :to delete a file
+	e.g:rm index.html
+
+=>touch :to create a file
+	e.g:touch app.php
+
+=>git log:to log all your save changes
+	-like you put an eyes in your saved progress
+
+=>git checkout: If you wanna go back to any saved changes you copy the hashed code that you see after the commit in git log
+	e.g:git checkout 336815c8062595da9bc3979934132a0ecd92cf22
+	
+=>git checkout -b "new-branch":to make a new branch and bascule throught it
+
+=> git branch:to show the list of all branch
+	-like you make 2 different save for backup
+
+=>git merge: to merge a specific branch to the main branch
+	-like you crush a saved game 
